@@ -1,12 +1,12 @@
 <script lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import { defineComponent } from 'vue'
 import axios from './utils/axios'
 
 export default defineComponent({
   setup () {
     axios.get('/users/XPoet').then((res) => {
-      console.log('res:', res)
+      console.log('res++++++++:', res)
     }).catch((err) => {
       console.log('err', err)
     })
@@ -24,7 +24,7 @@ export default defineComponent({
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
