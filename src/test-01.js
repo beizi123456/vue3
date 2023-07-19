@@ -1,2 +1,2 @@
 const x = 'hello'// test-01
-console.log('测试-jiancha', x)
+console.log('小明测试', x)
