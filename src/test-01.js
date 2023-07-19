@@ -1,2 +1,2 @@
 const x = 'hello'// test-01
-console.log(x)
+console.log('测试测试-----', x)
