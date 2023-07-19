@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint --fix --ext .js,.vue src",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "scriptname": "husky install"
   },
   "lint-staged": {
     "src/**/*.{js,ts,vue}": [
