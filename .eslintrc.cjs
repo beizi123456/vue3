@@ -5,7 +5,8 @@ module.exports = {
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:vue/vue3-essential"
+        "plugin:vue/vue3-essential",
+        'plugin:jest/recommended'
     ],
     "overrides": [
         {
@@ -38,6 +39,9 @@ module.exports = {
       "@typescript-eslint/strict-boolean-expressions": "off",
       "@typescript-eslint/prefer-optional-chain": "off",
       "@typescript-eslint/restrict-template-expressions": "off",
-      "@typescript-eslint/triple-slash-reference": "off"
+      "@typescript-eslint/triple-slash-reference": "off",
+      "@typescript-eslint/promise-function-async":"off",
+      "@typescript-eslint/quotes":"off"
+
     }
 }

@@ -14,7 +14,11 @@
       "DOM"
     ],
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "types": [
+      "vite/client",
+      "jest"
+    ]
   },
   "include": [
     "src/**/*.ts",
